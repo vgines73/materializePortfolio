@@ -1,0 +1,8 @@
+.section-skills,
+.section-about-me,
+.section-contact{
+    padding: 5px;
+    font-size: 18px;
+    width: 100%;
+    border: hsl(0, 0%, 96%) 3px solid;
+}

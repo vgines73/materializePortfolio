@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Materialize</title>
+</head>
+
+<body id="home" class="scrollspy">
+    <!-- keeps nav bar locked while scrolling -->
+    <div class="navbar-fixed">
+        <nav class="black">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="home" class="brand-logo">Vincent Gines</a>
+                    <!-- for side nav menu add bars for menu from font awesome -->
+                    <a href="#" class="sidenav-trigger" data-target="side-nav"><i class="fas fa-bars"></i></a>
+                    <!-- links for nav bar/menu -->
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#about-me">About Me</a>
+                        </li>
+                        <li>
+                            <a href="#work-history">Work History</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <ul class="sidenav" id="side-nav">
+        <li>
+            <a href="#skills">Skills</a>
+        </li>
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+        <li>
+            <a href="#about-me">About Me</a>
+        </li>
+        <li>
+            <a href="#work-history">Work History</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+
+    <!-- slider section -->
+    <section class="slider">
+        <ul class="slides">
+            <li>
+                <img class="materialboxed" src="./img/shoes.jpg" alt="shoes">
+                <div class="caption center-align">
+                    <h2>Full Stack Developer</h2>
+                    <h5 class="light grey-text text-lighten-3 hide-on-small-only">Front/Back End: 80%</h5>
+                </div>
+            </li>
+            <li>
+                <img class="materialboxed" src="./img/microphone.jpg" alt="microphone">
+                <div class="caption left-align">
+                    <h2>Languages</h2>
+                    <h5 class="light grey-text text-lighten-3 hide-on-small-only">Javascript</h5>
+                </div>
+            </li>
+            <li>
+                <img class="materialboxed" src="./img/laptop.jpg" alt="laptop">
+                <div class="caption right-align">
+                    <h2>Coding 24/7</h2>
+                    <h5 class="light grey-text text-lighten-3 hide-on-small-only">Desire to learn more</h5>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- skills section  -->
+    <section>
+        <div id="skills" class="section section-skills black darken-1 white-text center scrollspy">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="row">
+                            <h3>Skills</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 m3">
+                                <p>Team Player</p>
+                                <p>Problem-Solving</p>
+                                <p>Dedication</p>
+                            </div>
+                            <div class="col s12 m3">
+                                <p>Full Stack - 80%</p>
+                                <p>Bootstrap - 80%</p>
+                                <p>Javascript - 80%</p>
+                            </div>
+                            <div class="col s12 m3">
+                                <p>Materialize - 80%</p>
+                                <p>Bulma Materialize - 80%</p>
+                                <p>Back End - 80%</p>
+                            </div>
+                            <div class="col s12 m3">
+                                <p>Node - 80%</p>
+                                <p>CSS - 80%</p>
+                                <p>Front End - 80%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects section cards -->
+    <section id="projects" class="section setion-icons grey lighten-4 center">
+        <div class="container">
+            <div class="row">
+                <h3 class="center">Projects</h3>
+            </div>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="./img/image1.jpeg" alt="">
+                            <span class="card-title">Project 1</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, magni.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="./img/image1.jpeg" alt="">
+                            <span class="card-title">Project 2</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, magni.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="./img/image1.jpeg" alt="">
+                            <span class="card-title">Project 3</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, magni.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h3 class="center">Assignments</h3>
+        </div>
+        <div class="row">
+            <div class="col s12 m3">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="./img/image1.jpeg" alt="">
+                        <span class="card-title">Assignment 1</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, magni.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="./img/image1.jpeg" alt="">
+                        <span class="card-title">Assignment 2</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, magni.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="./img/image1.jpeg" alt="">
+                        <span class="card-title">Assignment 3</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, magni.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="./img/image1.jpeg" alt="">
+                        <span class="card-title">Assignment 4</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, magni.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  About Me section  -->
+
+    <section id="about-me" class="section section-about-me black white-text scrollspy">
+        <div class="row">
+            <h3 class="center">About Me</h3>
+        </div>
+        <div class="row">
+            <div class="col 12 m5">
+                <img src="./img/image1.jpeg" alt="">
+            </div>
+            <div class="col 12 m7">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consectetur corporis cumque deleniti
+                    exercitationem nobis quod unde illum dolores esse, sed, porro optio velit est itaque, quaerat
+                    cupiditate fugiat delectus repellat. Consequuntur, saepe. Id officia obcaecati repellat earum. Odio
+                    eaque dolorem est ea? Reiciendis ad dolor dicta fuga debitis sunt deleniti, aperiam aliquid
+                    consectetur neque dignissimos exercitationem minima quis, provident assumenda incidunt iste
+                    repellendus. Ea doloremque ipsum ducimus velit, aperiam reiciendis corrupti beatae fuga impedit quae
+                    nulla corporis placeat dolorum assumenda autem quos quasi ex voluptate vitae, exercitationem dolorem
+                    incidunt a suscipit? Cupiditate labore mollitia, soluta vel adipisci eligendi tempore.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non voluptatem, vel ullam voluptatum
+                    consequuntur quo corporis quibusdam laudantium repudiandae fuga earum culpa quasi corrupti ex
+                    provident sequi illo ducimus officiis quia possimus, natus eligendi! Placeat, molestiae consectetur!
+                    Maiores aut tenetur, non dicta dolorum qui, corporis autem sunt repellendus vitae odio id sint nisi,
+                    nulla earum alias. Veniam veritatis sequi exercitationem iure autem eaque ex reiciendis voluptatibus
+                    odit. Debitis, repellendus qui aspernatur voluptatem facere quia eaque ea quisquam adipisci,
+                    necessitatibus quasi repudiandae quod laboriosam corrupti dicta illum officia expedita fugiat,
+                    doloribus eveniet voluptas aut totam error dolor? Laborum, amet voluptas.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi neque nesciunt sint voluptate
+                    porro tempore perspiciatis, modi praesentium sequi, consequuntur esse dolor hic eveniet itaque
+                    repellendus aliquid voluptatibus autem debitis dicta repudiandae fuga at. Inventore unde
+                    perspiciatis amet, voluptates eveniet nisi odit ad sapiente? Quod explicabo excepturi alias vel
+                    unde. Eligendi nam officia nostrum ullam minus autem aliquid aspernatur blanditiis, hic minima. Aut
+                    velit repellendus rerum ex eos illo, iste iusto assumenda quibusdam unde in. Deleniti quas itaque
+                    assumenda doloribus ipsa dolor, ducimus soluta nulla perferendis, ea nam ab adipisci ipsam earum?
+                    Numquam nihil ut nostrum impedit necessitatibus consequatur voluptas.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- work history section  -->
+
+    <section id="work-history" class="section section-contact grey lighten-4 center scrollspy">
+        <div class="container">
+            <div class="row">
+                <h3 class="center">Work History</h3>
+            </div>
+            <div class="row">
+                <col class="s12">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact section  -->
+
+    <section id="contact" class="section section-contact black white-text scrollspy">
+        <div class="container">
+            <div class="row">
+                <h3 class="center">Contact Me</h3>
+            </div>
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card-panel grey center">
+                        <i class="material-icons medium">email</i>
+                        <h5>Contact Me for more information</h5><br>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur ab, nulla soluta delectus
+                            deserunt repudiandae assumenda! Corrupti a ad possimus?
+                        </p>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card-panel grey">
+                        <form id="my-form" action="https://formspree.io/f/mrgolddz" method="POST">
+                            <h5 class="center">Please Fill Out the Form</h5>
+                            <div class="input-field">
+                                <input type="text" class="white-text" placeholder="Name">
+                            </div>
+                            <div class="input-field">
+                                <input type="email" class="white-text" placeholder="Email">
+                            </div>
+                            <div class="input-field">
+                                <input type="text" class="white-text" placeholder="Phone">
+                            </div>
+                            <div class="input-field">
+                                <textarea name="message" class="materialize-textarea white-text" cols="30" rows="10"
+                                    placeholder="Leave a Message"></textarea>
+                            </div>
+                            <button id="my-form-button" class="btn waves-effect waves-light">Submit
+                                <i class="material-icons right">send</i>
+                            </button>
+                            <p id="my-form-status"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer  -->
+    <footer class="section grey lighten-4 center">
+        <p class="flow-text">Made by Vincent Gines &copy; 2021</p>
+    </footer>
+
+
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
