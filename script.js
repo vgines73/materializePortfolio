@@ -43,9 +43,6 @@ window.addEventListener("DOMContentLoaded", function() {
     };
     xhr.send(data);
 
-
-    // console.log("hello")
-
 };
 
 const sideNav = document.querySelector('.sidenav');
@@ -56,7 +53,14 @@ M.Sidenav.init(sideNav, {});
 const slider = document.querySelector('.slider');
 M.Slider.init(slider, {
     indicators: false,
-    height: 500,
+    height: 700,
     transition: 500,
     interval: 5000
+});
+
+// material boxes
+const elems = document.querySelectorAll('.materialboxed');
+M.Materialbox.init(elems, {
+  height: 600,
+  width: 500,
 });

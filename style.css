@@ -6,3 +6,16 @@
     width: 100%;
     border: hsl(0, 0%, 96%) 3px solid;
 }
+
+.fa-3x {
+    margin: 5px;
+}
+
+.shadow,
+.card-title {
+    text-shadow: 2px 2px 4px black;
+}
+
+.shadows {
+    text-shadow: 2px 2px 4px grey;
+}
