@@ -13,16 +13,14 @@
     <title>Materialize</title>
 </head>
 
-<body id="home" class="scrollspy">
-
-
+<body id="home" class="scrollspy" style="width: 100%">
 
     <!-- keeps nav bar locked while scrolling -->
     <div class="navbar-fixed">
         <nav class="black">
             <div class="container">
                 <div class="nav-wrapper">
-                    <a href="home" class="brand-logo">Vincent Gines</a>
+                    <a href="#home" class="brand-logo hide-on-small-only">Vincent Gines</a>
                     <!-- for side nav menu add bars for menu from font awesome -->
                     <a href="#" class="sidenav-trigger" data-target="side-nav"><i class="fas fa-bars"></i></a>
                     <!-- links for nav bar/menu -->
@@ -45,6 +43,7 @@
         </nav>
     </div>
     <ul class="sidenav" id="side-nav">
+        <h5>Vincent Gines</h5>
         <li>
             <a href="#skills">Skills</a>
         </li>
@@ -63,14 +62,14 @@
     <section class="slider">
         <ul class="slides">
             <li>
-                <img src="./img/shoes.jpg" style="width: 100%" alt="shoes">
+                <img src="./img/shoes.jpg"  alt="shoes">
                 <div class="caption center-align">
                     <h2 class="shadow">Vincent Gines</h2>
-                    <h5 class="light grey-text text-lighten-3 hide-on-small-only shadow">Full Stack Developer</h5>
+                    <h5 class="light grey-text text-lighten-3 shadow">Full Stack Developer</h5>
                 </div>
             </li>
             <li>
-                <img src="./img/microphone.jpg" style="width: 100%" alt="microphone">
+                <img src="./img/microphone.jpg" alt="microphone">
                 <div class="caption left-align">
                     <h2 class="shadow">Front End - 80%</h2>
                     <h5 class="light grey-text text-lighten-3 hide-on-small-only shadow">Javascript, CSS, Frameworks
@@ -78,7 +77,7 @@
                 </div>
             </li>
             <li>
-                <img src="./img/laptop.jpg" style="width: 100%" alt="laptop">
+                <img src="./img/laptop.jpg" alt="laptop">
                 <div class="caption right-align">
                     <h2 class="shadow">Back End - 80%</h2>
                     <h5 class="light grey-text text-lighten-3 hide-on-small-only shadow">Servers, Databases</h5>
@@ -138,13 +137,13 @@
             <div class="row">
                 <div class="col s12 m4">
                     <div class="card small hoverable">
-                        <div class="card-image">
+                        <div class="card-image" style="width: 100%; height: 100%;">
                             <a href="https://vgines73.github.io/avvb_project1/" target="blank">
                                 <img src="./img/portfolio-images/thumbnails/superhero-showdown.png" alt="Superhero App">
                                 <span class="card-title">Superhero-Showdown</span>
                             </a>
                         </div>
-                        <div class="card-content">
+                        <div class="card-action">
                             <p>1 on 1 Battle Against Your Favorite Superheroes using API's</p>
                             <a href="https://github.com/vgines73/avvb_project1" class="btn btn-secondary btn-lg active"
                                 role="button" aria-pressed="true" target="blank" style="float: right; margin-top: 5px;">
@@ -155,13 +154,13 @@
                 </div>
                 <div class="col s12 m4">
                     <div class="card small hoverable">
-                        <div class="card-image">
+                        <div class="card-image" style="width: 100%; height: 100%;">
                             <a href="https://ancient-waters-03417.herokuapp.com/" target="blank">
                                 <img src="./img/portfolio-images/thumbnails/piece-of-art.png" alt="Artwork App">
                                 <span class="card-title">Piece of Art</span>
                             </a>
                         </div>
-                        <div class="card-content">
+                        <div class="card-action">
                             <p>Artwork App using Sequelize/Express</p>
                             <a href="https://github.com/vgines73/project_2" class="btn btn-secondary btn-lg active"
                                 role="button" aria-pressed="true" target="blank" style="float: right; margin-top: 5px;">
@@ -172,12 +171,17 @@
                 </div>
                 <div class="col s12 m4">
                     <div class="card small hoverable">
-                        <div class="card-image">
+                        <div class="card-image" style="width: 100%; height: 100%;">
                             <img src="./img/image1.jpeg" alt="">
                             <span class="card-title">Project 3</span>
                         </div>
-                        <div class="card-content">
-                            <p>Due at the end of March. </p>
+                        <div class="card-action">
+                            <p>Due at the end of March. Placeholder for now.</p>
+                          
+                            <a href="#" class="btn btn-secondary btn-lg active"
+                            role="button" aria-pressed="true" target="blank" style="float: right; margin-top: 5px;">
+                            <i class="fab fa-github-square fa-5x white-text "></i>
+                        </a>
                         </div>
                     </div>
                 </div>
@@ -189,13 +193,13 @@
         <div class="row">
             <div class="col s12 m3 ">
                 <div class="card small hoverable">
-                    <div class="card-image">
+                    <div class="card-image" style="width: 100%; height: 100%;">
                         <a href="https://infinite-bastion-62702.herokuapp.com/" target="blank">
                             <img src="./img/portfolio-images/thumbnails/burger-app.png" alt="Burger App">
                             <span class="card-title">Eat Dem Burgers Breh</span>
                         </a>
                     </div>
-                    <div class="card-content">
+                    <div class="card-action">
                         <p>CRUD Functionality, Handlebars, MVC</p>
                         <a href="https://github.com/vgines73/burger" class="btn btn-secondary btn-lg active"
                             role="button" aria-pressed="true" target="blank" style="float: right; margin-top: 5px;">
@@ -206,14 +210,14 @@
             </div>
             <div class="col s12 m3">
                 <div class="card small hoverable">
-                    <div class="card-image">
+                    <div class="card-image" style="width: 100%; height: 100%;">
                         <a href="https://drive.google.com/file/d/1h8H4_oLBu2qKINx63J8RZ3qfI_kx502b/view" target="blank">
                             <img src="./img/portfolio-images/thumbnails/template-engine-employee-summary.png"
                                 alt="template engine employee app">
                             <span class="card-title">Template Engine Employee Summary</span>
                         </a>
                     </div>
-                    <div class="card-content">
+                    <div class="card-action">
                         <p>CRUD functionality/Database using mySQL and Workbench</p>
                         <a href="https://github.com/vgines73/templateEngineEmployeeSummaryOhYeah"
                             class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" target="blank"
@@ -225,14 +229,14 @@
             </div>
             <div class="col s12 m3">
                 <div class="card small hoverable">
-                    <div class="card-image">
+                    <div class="card-image" style="width: 100%; height: 100%;">
                         <a href="https://vgines73.github.io/HW3_randomPasswordGenerator/" target="blank">
                             <img src="./img/portfolio-images/thumbnails/random-password-generator.png"
                                 alt="password generator">
                             <span class="card-title">Password Generator</span>
                         </a>
                     </div>
-                    <div class="card-content">
+                    <div class="card-action">
                         <p>Create your very own unique password</p>
                         <a href="https://github.com/vgines73/HW3_randomPasswordGenerator"
                             class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" target="blank"
@@ -244,13 +248,13 @@
             </div>
             <div class="col s12 m3">
                 <div class="card small hoverable">
-                    <div class="card-image">
+                    <div class="card-image" style="width: 100%; height: 100%;">
                         <a href="https://vgines73.github.io/HW5_dayPlannerOhYeah/" target="blank">
                             <img src="./img/portfolio-images/thumbnails/day-planner.png" alt="day planner">
                             <span class="card-title">Work Day Planner</span>
                         </a>
                     </div>
-                    <div class="card-content">
+                    <div class="card-action">
                         <p>Store/Save tasks in your very own Day Planner</p>
                         <a href="https://github.com/vgines73/HW5_dayPlannerOhYeah"
                             class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" target="blank"
@@ -373,7 +377,7 @@
                     </div>
                 </div>
                 <div class="col s12 m6">
-                    <div class="card-panel grey">
+                    <div class="card-panel grey darken-3">
                         <form id="my-form" action="https://formspree.io/f/mrgolddz" method="POST">
                             <h5 class="center">Please Fill Out the Form</h5>
                             <div class="input-field">
